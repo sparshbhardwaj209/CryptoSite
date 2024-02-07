@@ -34,7 +34,7 @@ const Wallet = () => {
 
           <div className="views">
             <div className="amount">
-              <span className="inner-amount xl:text-3xl">20.000$</span>
+              <span className="inner-amount text-3xl">20.000$</span>
               <p className="inner-shi ">SHIBARIUM MAINNET</p>
             </div>
 

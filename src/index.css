@@ -1,19 +1,15 @@
-/* @media only screen and (min-width: 1024px) { */
   .left {
     position: absolute;
     padding: 8px;
     left: 0;
     background-color: #151b28;
     padding-top: 10px;
-    /* width: fit-content; */
     width: 26%;
     height: 100vh;
     box-sizing: border-box;
-    /* overflow: hidden; */
   }
 
   .logo-div {
-    /* border: 1px solid violet; */
     width: 195px;
     display: flex;
     align-items: normal;
@@ -21,14 +17,12 @@
   }
 
   .SherIcon {
-    /* width: 30px; */
     height: 30px;
     border-radius: 50%;
   }
 
   .heading {
     color: white;
-    /* margin-left: 2px; */
   }
 
   a {
@@ -46,8 +40,6 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    /* justify-content: space-between; */
-    /* margin: 5px; */
   }
 
   .ico {
@@ -55,7 +47,6 @@
   }
 
   .li-item {
-    /* border: 1px solid yellow; */
     border-radius: 18px;
     width: 170px;
     margin: 5px;
@@ -71,11 +62,9 @@
   }
 
   .right {
-    /* border: 1px solid red; */
     color: white;
     position: absolute;
     background-color: #151b28;
-    /* display: inline-block; */
     width: 86%;
     height: 100vh;
     left: 213px;
@@ -83,7 +72,6 @@
   }
 
   .inner-right {
-    /* border: 1px solid green; */
     border-radius: 25px;
     height: 92vh;
     background-color: #0c0f17;
@@ -123,7 +111,6 @@
   }
 
   .views {
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -139,7 +126,6 @@
     padding: 15px 40px 15px 40px;
     text-align: center;
     box-sizing: border-box;
-    /* position: absolute; */
     width: 25%;
   }
 
@@ -156,11 +142,7 @@
   .views-btns {
     display: flex;
     flex-direction: column;
-    /* width: 200px; */
     width: 20%;
-    /* position: absolute; */
-    /* left: 330px;
-  top: 142px; */
   }
 
   .bton {
@@ -180,21 +162,15 @@
 
   .views-txts {
     color: #596380;
-    /* padding: 10px; */
     text-align: center;
     font-size: 0.9rem;
     font-weight: 500;
-    /* position: absolute; */
-    /* left: 700px; */
-    /* top: 137px; */
     width: 40%;
   }
 
   .views-text {
     margin-bottom: 8px;
     background-color: white;
-    /* width: 510px; */
-    /* padding:5px 20px 5px 20px ; */
     border-radius: 10px;
     height: 40px;
   }
@@ -204,7 +180,6 @@
   }
 
   .Body-Header {
-    /* border: 1px solid green; */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.8rem;
     margin: 25px 10px;
@@ -218,14 +193,12 @@
   .tableView {
     border: 1px solid #596380;
     border-radius: 30px;
-    /* padding: 10px; */
     margin: 5px;
   }
 
   .table-headers {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
     border-bottom: 1px solid #596380;
     font-weight: 400;
     padding-top: 10px;
@@ -235,12 +208,10 @@
   }
 
   .extra-spacing {
-    /* margin-right: 30px; */
     padding-right: 25px;
   }
 
   .table-search {
-    /* border: 1px solid green; */
     border-radius: 10px;
     padding: 3px;
     padding-left: 15px;
@@ -248,8 +219,6 @@
   }
 
   .table-data {
-    /* border: 1px solid orangered; */
-    /* padding: 20px; */
     padding-left: 20px;
     padding-right: 25px;
   }
@@ -269,14 +238,12 @@
 
   #innerBridge {
     display: flex;
-    /* border: 1px solid red; */
     padding: 10px;
     width: 100%;
     margin: 15px;
   }
 
   #innerLeft {
-    /* border: 1px solid green; */
     background-color: #151b28;
     border-radius: 40px;
     margin: 5px;
@@ -306,7 +273,6 @@
   }
 
   .innerBridgeText {
-    /* border: 1px solid red; */
     font-size: 0.9rem;
     display: flex;
     flex-direction: column;
@@ -327,7 +293,6 @@
   }
 
   .innerBridgeButtons {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
   }
@@ -339,7 +304,6 @@
   }
 
   #innerRight {
-    /* border: 1px solid green; */
     background-color: #151b28;
     border-radius: 40px;
     margin: 5px;
@@ -348,11 +312,9 @@
     height: 69vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
   }
 
   .innerRightDW {
-    /* border: 1px solid red; */
     border-radius: 10px;
     background-color: #e9e9ec;
     display: flex;
@@ -388,7 +350,6 @@
   }
 
   .EtherumChain {
-    /* border: 1px solid red; */
     border-radius: 10px;
     padding: 10px 20px;
     background-color: #e9e9ec;
@@ -400,7 +361,6 @@
   }
 
   .ethCurrency {
-    /* border: 1px solid red; */
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -411,7 +371,6 @@
   }
 
   .ethCurrencyEth {
-    /* border: 1x solid red; */
     background-color: #e9e9ec;
     border-radius: 10px;
     width: 180px;
@@ -425,7 +384,6 @@
   }
 
   .ethCurrencyMax {
-    /* border: 1px solid red; */
     border-radius: 10px;
     background-color: #e9e9ec;
     padding: 10px 10px;
@@ -459,7 +417,6 @@
 
   .transferButton {
     margin-top: 50px;
-    /* width: 100%; */
   }
 
   .tBtn {
@@ -474,27 +431,3 @@
     text-decoration: none;
     color: inherit;
   }
-/* } */
-
-/* @media only screen and (max-width: 320px) {
-  .left {
-    display: flex;
-    width: 100vw;
-    height: fit-content;
-    position: static;
-  }
-  .logo-div{
-    border: 1px solid red;
-    width: 100px;
-    height: 100px;
-    display: flex;
-  }
-  .SherIcon{
-    height: 24px;
-  }
-
-  .right {
-    position: static;
-    width: 100vw;
-  }
-} */

@@ -4,6 +4,7 @@ import AppsOutlinedIcon from "@mui/icons-material/AppsOutlined";
 import ErrorRoundedIcon from "@mui/icons-material/ErrorRounded";
 const Bridge = () => {
   return (
+    
     <>
       <div className="right">
         <div className="inner-right">
@@ -76,7 +77,7 @@ const Bridge = () => {
               </div>
             </div>
 
-            <div id="innerRight" className="md:static">
+            <div id="innerRight">
               <div className="innerRightDW p-2">
                 <Link to="/bridge">
                   <button className="innerRightDWDW ">Deposit</button>
