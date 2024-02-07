@@ -1,0 +1,500 @@
+/* @media only screen and (min-width: 1024px) { */
+  .left {
+    position: absolute;
+    padding: 8px;
+    left: 0;
+    background-color: #151b28;
+    padding-top: 10px;
+    /* width: fit-content; */
+    width: 26%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  }
+
+  .logo-div {
+    /* border: 1px solid violet; */
+    width: 195px;
+    display: flex;
+    align-items: normal;
+    padding: 10px;
+  }
+
+  .SherIcon {
+    /* width: 30px; */
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .heading {
+    color: white;
+    /* margin-left: 2px; */
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navs {
+    padding-top: 50px;
+  }
+
+  .list-icons {
+    list-style-type: none;
+    color: #596380;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* margin: 5px; */
+  }
+
+  .ico {
+    margin-right: 5px;
+  }
+
+  .li-item {
+    /* border: 1px solid yellow; */
+    border-radius: 18px;
+    width: 170px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .li-item:hover {
+    background-image: linear-gradient(#f06500, #f28b03);
+    color: white;
+  }
+
+  .right {
+    /* border: 1px solid red; */
+    color: white;
+    position: absolute;
+    background-color: #151b28;
+    /* display: inline-block; */
+    width: 86%;
+    height: 100vh;
+    left: 213px;
+    padding: 25px;
+  }
+
+  .inner-right {
+    /* border: 1px solid green; */
+    border-radius: 25px;
+    height: 92vh;
+    background-color: #0c0f17;
+    padding: 30px;
+  }
+
+  .myBalance {
+    margin: 25px 15px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .sp-icon {
+    margin-right: 10px;
+  }
+
+  .topApps {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 15px;
+  }
+
+  .twoapps {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 48px;
+    font-size: 0.8rem;
+  }
+
+  #SherId {
+    background-image: linear-gradient(#f06500, #f28b03);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .views {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .amount {
+    display: inline-block;
+    background-color: #151b28;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 25%;
+  }
+
+  .inner-amount {
+    font-size: 2.2rem;
+    font-weight: bolder;
+  }
+
+  .inner-shi {
+    font-size: 0.9rem;
+    margin-top: 3px;
+  }
+
+  .views-btns {
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    width: 20%;
+    /* position: absolute; */
+    /* left: 330px;
+  top: 142px; */
+  }
+
+  .bton {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+    background-color: #596380;
+  }
+
+  .bton-icon {
+    margin-right: 5px;
+  }
+
+  .views-txts {
+    color: #596380;
+    /* padding: 10px; */
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    /* position: absolute; */
+    /* left: 700px; */
+    /* top: 137px; */
+    width: 40%;
+  }
+
+  .views-text {
+    margin-bottom: 8px;
+    background-color: white;
+    /* width: 510px; */
+    /* padding:5px 20px 5px 20px ; */
+    border-radius: 10px;
+    height: 40px;
+  }
+
+  .views-text-p {
+    padding: 9px;
+  }
+
+  .Body-Header {
+    /* border: 1px solid green; */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.8rem;
+    margin: 25px 10px;
+    padding: 5px 10px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .tableView {
+    border: 1px solid #596380;
+    border-radius: 30px;
+    /* padding: 10px; */
+    margin: 5px;
+  }
+
+  .table-headers {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #596380;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+  .extra-spacing {
+    /* margin-right: 30px; */
+    padding-right: 25px;
+  }
+
+  .table-search {
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 15px;
+    width: 190px;
+  }
+
+  .table-data {
+    /* border: 1px solid orangered; */
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+
+  .tokenName {
+    font-weight: 500;
+  }
+
+  .table-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 2px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #innerBridge {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+  }
+
+  #innerLeft {
+    /* border: 1px solid green; */
+    background-color: #151b28;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 20px;
+    width: 45%;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .innerBridgeHeader {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .innerBridgeHeaderinner {
+    font-size: 2rem;
+  }
+
+  .innerBHeading {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.1rem;
+  }
+
+  .innerBridgeTextHeading {
+    margin: 10px 5px;
+  }
+
+  .innerBridgeText {
+    /* border: 1px solid red; */
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .innerBridgeSpanText {
+    color: #596380;
+    font-size: 14px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .innerBridgeEstimation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: #596380;
+    font-size: 0.9rem;
+  }
+
+  .innerBridgeButtons {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .innerBBEqual {
+    width: 180px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  #innerRight {
+    /* border: 1px solid green; */
+    background-color: #151b28;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 20px;
+    width: 45%;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .innerRightDW {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #e9e9ec;
+    display: flex;
+    height: 64px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+
+  .innerRightDWDW {
+    background-color: #151b28;
+    color: white;
+    width: 200px;
+    height: 48px;
+    border-radius: 10px;
+  }
+
+  .innerRightDWDWExcept {
+    color: #596380;
+    font-weight: 600;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    border: none;
+  }
+
+  .innerFrom {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    width: 80px;
+    height: 30px;
+    margin: 40px 0px 2px 0px;
+  }
+
+  .EtherumChain {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #e9e9ec;
+    color: #596380;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 5px 0px;
+  }
+
+  .ethCurrency {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ethCurrencyEth {
+    /* border: 1x solid red; */
+    background-color: #e9e9ec;
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px 10px;
+    color: #151b28;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .ethCurrencyMax {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #e9e9ec;
+    padding: 10px 10px;
+    width: 290px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #596380;
+  }
+
+  .ethCurrencyP {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    width: 80px;
+    height: 30px;
+    margin: 30px 0px 2px 0px;
+  }
+
+  .ToShibariumChain {
+    display: flex;
+    justify-content: space-between;
+    color: #596380;
+    background-color: #e9e9ec;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+
+  .transferButton {
+    margin-top: 50px;
+    /* width: 100%; */
+  }
+
+  .tBtn {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-image: linear-gradient(#f06500, #f28b03);
+  }
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+/* } */
+
+/* @media only screen and (max-width: 320px) {
+  .left {
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    position: static;
+  }
+  .logo-div{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+  .SherIcon{
+    height: 24px;
+  }
+
+  .right {
+    position: static;
+    width: 100vw;
+  }
+} */
